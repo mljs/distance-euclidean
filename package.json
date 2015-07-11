@@ -1,0 +1,36 @@
+{
+  "name": "ml-euclidean-distance",
+  "version": "1.0.0",
+  "description": "Compute the euclidean distance between two vectors",
+  "main": "euclidean.js",
+  "scripts": {
+    "test": "mocha --require should --reporter mocha-better-spec-reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mljs/euclidean-distance.git"
+  },
+  "keywords": [
+    "euclidean",
+    "squared",
+    "distance",
+    "metric",
+    "vector",
+    "data",
+    "mining",
+    "datamining",
+    "machine",
+    "learning"
+  ],
+  "author": "Michaël Zasso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mljs/euclidean-distance/issues"
+  },
+  "homepage": "https://github.com/mljs/euclidean-distance#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "mocha-better-spec-reporter": "^2.1.1",
+    "should": "^7.0.2"
+  }
+}
