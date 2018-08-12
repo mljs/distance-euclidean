@@ -1,6 +1,6 @@
 {
   "name": "ml-distance-euclidean",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Compute the euclidean distance between two vectors",
   "main": "./lib/euclidean.js",
   "module": "./lib-es6/euclidean.js",
