@@ -10,7 +10,7 @@ Compute the euclidean distance between two vectors
 
 `$ npm install ml-distance-euclidean`
 
-## Usage
+## API
 
 ### euclidean(p, q)
 
