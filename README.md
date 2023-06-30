@@ -1,8 +1,20 @@
 # ml-distance-euclidean
 
+<h3 align="center">
+  
+  <a href="https://www.zakodium.com">
+   <img src="https://www.zakodium.com/brand/zakodium-logo-white.svg" width="50" alt="Zakodium logo" />
+  </a>
+  
+  <p>
+    Maintained by <a href="https://www.zakodium.com">Zakodium</a>
+  </p>
+  
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![npm download][download-image]][download-url]
+  
+</h3>
 
 Compute the euclidean distance between two vectors
 
@@ -13,7 +25,7 @@ Compute the euclidean distance between two vectors
 ## API
 
 ```js
-const { euclidean, squaredEuclidean } = require('ml-distance-euclidean');
+const { euclidean, squaredEuclidean } = require("ml-distance-euclidean");
 
 euclidean([0, 1, 4, 6, 2], [3, 6, 9, 4, 3]); // 8
 ```
