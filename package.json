@@ -3,7 +3,9 @@
   "version": "2.0.0",
   "description": "Compute the euclidean distance between two vectors",
   "type": "module",
-  "exports": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
   "files": [
     "src",
     "lib"
