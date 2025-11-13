@@ -1,4 +1,6 @@
-import { euclidean, squaredEuclidean } from '../euclidean';
+import { describe, expect, it } from 'vitest';
+
+import { euclidean, squaredEuclidean } from '../index.js';
 
 const v1 = [0, 1, 4, 6, 2];
 const v2 = [3, 6, 9, 4, 3];

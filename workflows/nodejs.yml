@@ -1,0 +1,19 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  nodejs:
+    # Documentation: https://github.com/zakodium/workflows#nodejs-ci
+    uses: zakodium/workflows/.github/workflows/nodejs.yml@nodejs-v1
+    with:
+      lint-check-types: true
+      # Zenodo API is a little bit touchy, so we only test with old version of Node.js
+      # More over this packages requires at least Node.js 20
+      node-version-matrix: '[20]'
+    secrets:
+      env: ACCESS_TOKEN=${{ secrets.ACCESS_TOKEN }}
