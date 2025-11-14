@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/mljs/distance-euclidean/compare/v3.0.0...v3.0.1) (2025-11-14)
+
+
+### Bug Fixes
+
+* correct badges in README ([5820f9b](https://github.com/mljs/distance-euclidean/commit/5820f9bf3042841ceff5928f20bd218968455d48))
+
 ## [3.0.0](https://github.com/mljs/distance-euclidean/compare/v2.0.0...v3.0.0) (2025-11-13)
 
 
