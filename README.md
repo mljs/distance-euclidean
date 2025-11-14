@@ -9,11 +9,12 @@
   <p>
     Maintained by <a href="https://www.zakodium.com">Zakodium</a>
   </p>
-  
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![npm download][download-image]][download-url]
-  
+
+[![NPM version](https://img.shields.io/npm/v/ml-distance-euclidean.svg)](https://www.npmjs.com/package/ml-distance-euclidean)
+[![npm download](https://img.shields.io/npm/dm/ml-distance-euclidean.svg)](https://www.npmjs.com/package/ml-distance-euclidean)
+[![test coverage](https://img.shields.io/codecov/c/github/mljs/spectra-processing.svg)](https://codecov.io/gh/mljs/spectra-processing)
+[![license](https://img.shields.io/npm/l/ml-distance-euclidean.svg)](https://github.com/mljs/spectra-processing/blob/main/LICENSE)
+
 </h3>
 
 Compute the euclidean distance between two vectors
@@ -25,7 +26,7 @@ Compute the euclidean distance between two vectors
 ## API
 
 ```js
-const { euclidean, squaredEuclidean } = require("ml-distance-euclidean");
+const { euclidean, squaredEuclidean } = require('ml-distance-euclidean');
 
 euclidean([0, 1, 4, 6, 2], [3, 6, 9, 4, 3]); // 8
 ```
@@ -41,10 +42,3 @@ Returns the [squared Euclidean distance](https://en.wikipedia.org/wiki/Euclidean
 ## License
 
 [MIT](./LICENSE)
-
-[npm-image]: https://img.shields.io/npm/v/ml-distance-euclidean.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/ml-distance-euclidean
-[travis-image]: https://img.shields.io/travis/mljs/distance-euclidean/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/mljs/distance-euclidean
-[download-image]: https://img.shields.io/npm/dm/ml-distance-euclidean.svg?style=flat-square
-[download-url]: https://npmjs.org/package/ml-distance-euclidean
